@@ -1,0 +1,113 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    border: none;
+    margin: 0;
+    margin-top: -2%;
+    display: flex;
+    flex-flow: column;
+    row-gap: 100px;
+}
+
+/*PROPRIEDADES DE CADA BATTA */
+.caixaVerde {
+    height: 144px;
+    background: #468448;
+    color: #FFF;
+    text-align: center;
+}
+
+.caixaAzul {
+    height: 144px;
+    background: #75ABC2;
+    color: #FFF;
+    text-align: center;
+}
+
+.caixaAmarela {
+    height: 144px;
+    background: #F1D262;
+    color: #FFF;
+    text-align: center;
+}
+
+/*QUADRO COM LAUDOS */
+.quadros {
+margin-top: -4%;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+.botoesExame {
+    color: #676767;
+    font-family: Istok Web;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #E6E6E6;
+    width: 285px;
+    height: 70px;
+    margin: 1%;
+    }
+
+/*BOTOES */
+
+.botoesPaciente {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background:#75ABC2;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botoesCuidador {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background:#468448;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botoesProfissional {
+    background: #F1D262;
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*TEXTOS */
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 3%;
+    font-family: Istok Web;
+}

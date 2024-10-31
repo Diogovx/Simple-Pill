@@ -1,0 +1,45 @@
+body {
+    font-family: Istok Web;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #fff8bd;
+}
+
+/* TEXTO E BOTÕES*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4%;
+}
+
+.botao-amarelo {
+    background-color: #F0D05C;
+    margin: 7px;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+}
+
+.voltar{
+    color: #000;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.texto-topo{
+    text-align: center;
+}

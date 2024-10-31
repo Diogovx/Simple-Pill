@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+    align-items: center;
+    font-family: 'Istok Web';
+    border: none;
+    margin: 0;
+    background: #468448;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Istok Web';
+    text-align: center;
+    margin-top: 3%;
+    font-size: 28px;
+}
+
+.voltar {
+    display: flex;
+    column-gap: 170px;
+    text-decoration: none;
+    color: #000;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 400px;
+}
+
+input {
+    color: #313131;
+    font-family: 'Istok Web';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 28px;
+    background: #e9e9e9;
+    width: 130%;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.botoes button {
+    width: 90px;
+    height: 30px;
+    border-radius: 28px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background-color: #2e2e2e;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}

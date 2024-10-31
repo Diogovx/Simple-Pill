@@ -1,0 +1,79 @@
+body {
+    font-family: 'Istok Web';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*IMAGEM */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* FORMULÁRIO E INPUTS */
+.opcoes {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 15px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 400px;
+}
+
+input {
+    color: #313131;
+    font-family: 'Istok Web';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 28px;
+    background: #e9e9e9;
+    width: 90%;
+    height: 30px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* BOTÕES */
+.profissional {
+    width: 76px;
+    height: 33px;
+    border-radius: 38px;
+    background: #F1D262;
+    text-align: center;
+    color: #FFF;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Istok Web;
+    font-size: 16px;
+    font-weight: 450;
+    border-style: none;
+}
+.voltar {
+    text-decoration: underline;
+    color: #000;
+    font-family: Istok Web;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* TEXTO */
+.titulo{
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 22px;
+    color:#F1D262;
+}

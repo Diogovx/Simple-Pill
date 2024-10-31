@@ -1,0 +1,73 @@
+body {
+    font-family: 'Istok Web';
+    border: none;
+    margin: 0;
+}
+
+/* BARRA E TEXTOS*/
+.caixaBranca {
+    height: 140px;
+    width: auto;
+    background: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+    font-family: Istok Web;
+    }
+
+/* PROPRIEDADES DE CADA BARRA DO USUÁRIO*/
+.caixaAzul {
+    min-height: 100vh;
+    background: #75ABC2;
+    row-gap: 15px;
+    column-gap: 200px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding-top: 4%;
+}
+
+.caixaVerde {
+    background: #468448;
+    row-gap: 15px;
+    column-gap: 200px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    padding-top: 4%;
+}
+
+.caixaAmarela {
+    row-gap: 15px;
+    column-gap: 200px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    background: #F1D262;
+    padding-top: 4%;
+}
+
+/* BOTOES*/
+.botao-medicacao {
+    background-color: white;
+    margin: 7px;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-family: Istok Web;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

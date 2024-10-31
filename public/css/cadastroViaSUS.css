@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff8bd;
+    background-image: linear-gradient(180deg, #fff8bd 0%, #9adfc6 50%, #a4d9f2 100%);
+}
+
+/* BOTÕES */
+.button {
+    background-color: #BDF3CF;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 14px;
+    padding: 15px 31px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+}
+
+.button2 {
+    background-color: #BDF3CF;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 14px;
+    padding: 15px 31px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+}
+
+.botao-voltar{
+    position: absolute;
+    margin-top: 280px;
+    margin-right: 52px;
+}
+
+.button3 {
+    color: #000;
+    text-align: center;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+}
+
+/* OUTROS */
+.caixaVerde {
+    flex-flow: column;
+    row-gap: 30px;
+    display: flex;
+    height: 400px;
+    width: 460px;
+    background: #ccffec;
+    color: #000000;
+    border-radius: 35px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixaVerdeTexto {
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+    color: #000000;
+    font-family: 'Istok Web', sans-serif;
+}
+
+/* IMAGEM */
+.imagem {
+    margin-left: -20px;
+    margin-top: 63px;
+    position: absolute;
+    image-rendering: optimizeQuality;
+    background-size: cover;
+}
+
+/* TEXTO */
+.texto-ao-lado {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 39px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+}

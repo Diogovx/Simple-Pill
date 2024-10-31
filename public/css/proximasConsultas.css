@@ -1,0 +1,144 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    border: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixaVerde {
+    height: 100px;
+    width: auto;
+    background: #468448;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+}
+
+.caixaAzul {
+    height: 100px;
+    width: auto;
+    background: #75ABC2;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+}
+
+.caixaAmarela {
+    height: 144px;
+    background: #F1D262;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+}
+
+.quadros {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.botoes
+{
+display: flex;
+flex-flow: row;
+align-items: center;
+column-gap: 80px;
+}
+
+.quadro {
+color: #676767;
+font-family: Istok Web;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: #E6E6E6;
+width: 285px;
+height: 120px;
+margin: 1%;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Istok Web;
+    padding-top: 30px;
+}
+
+h2 {
+    color: #676767;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Istok Web;
+    margin-left: 5%;
+}
+
+h3 {
+    color: #000;
+    font-family: "Istok Web";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+}
+
+.botoesPaciente {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background:#75ABC2;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.botoesCuidador {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background:#468448;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botoesProfissional {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background: #F1D262;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}

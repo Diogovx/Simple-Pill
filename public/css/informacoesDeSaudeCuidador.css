@@ -1,0 +1,49 @@
+body {
+    font-family: 'Istok Web';
+    margin: 0;
+    padding: 0;
+    background-color: #468448;
+}
+
+/*BOTOES */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    background-color: white;
+    margin: 8px;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    width: 210px;
+    text-align: center;
+    font-family: 'Istok Web';
+}
+
+.voltar {
+    color: #000;
+    text-align: center;
+    font-family: 'Istok Web';
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* TEXTOS E IMAGEM */
+.texto-topo{
+    text-align: center;
+}
+
+.texto{
+text-align: center;
+font-size: 20px;
+}
+

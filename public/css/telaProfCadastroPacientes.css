@@ -1,0 +1,101 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    border: none;
+    margin: 0;
+    margin-top: -2%;
+}
+
+.caixaAmarela {
+    height: 144px;
+    background: #F1D262;
+    color: #FFF;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 4%;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 95px;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+
+.opcoes1 {
+    row-gap: 15px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 8%;
+    margin-left: 41%;
+    width: 286px;
+    height: 35px;
+}
+
+.opcoes2 {
+    row-gap: 15px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 6%;
+    margin-left: 41%;
+    width: 286px;
+    height: 35px;
+}
+
+input {
+color: #676767;
+font-family: Istok Web;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 48px;
+background: #E6E6E6;
+}
+
+.botao1 {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background: #F1D262;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+    }
+
+.botao2 {
+    width: 97px;
+    height: 33px;
+    border-radius: 38px;
+    background: #F1D262;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+.opcoes3 {
+    margin-top: 20px;
+    column-gap: 90px;
+    display: flex;
+    flex-flow: row;
+    width: 286px;
+    height: 35px;
+}

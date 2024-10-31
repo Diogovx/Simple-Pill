@@ -1,0 +1,68 @@
+body {
+    font-family: 'Istok Web';
+    border: none;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixaVerde {
+    height: 270px;
+    width: auto;
+    background: #468448;
+    color: #FFF;
+    
+}
+
+.caixaAzul {
+    height: 270px;
+    width: auto;
+    background: #75ABC2;
+    color: #FFF;
+    
+}
+
+.caixaAmarela {
+    height: 270px;
+    width: auto;
+    background: #F1D262;
+    color: #FFF;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 95px;
+    margin-left: 44%;
+    margin-top: 1%;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 400;
+    padding-top: 0%;
+}
+
+button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Istok Web;
+}
+
+a {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-left: 5%;
+    margin-top: 2%;
+    text-decoration: underline;
+    display: inline-block;
+}

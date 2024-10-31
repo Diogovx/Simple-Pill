@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-flow: column;
+    row-gap: 30px;
+    align-items: center;
+    font-family: 'Istok Web';
+    border: none;
+    margin: 0;
+    background: #468448;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Istok Web';
+    text-align: center;
+    margin-top: 3%;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: 'Istok Web';
+    font-size: 18px;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+img[src="Imagens/configurações.png"] {
+    width: 50px;
+    height: auto;
+}
+
+.primeiraLista {
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    column-gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#app {
+    text-decoration: underline;
+    color: #000;
+    font-family: Istok Web;
+    display: inline-block;
+}
+
+.botoes{
+    display: flex;
+    column-gap: 170px;
+    text-decoration: none;
+    color: #000;
+    font-family: Istok Web;
+    font-weight: 700;
+    font-size: 22px;
+}
+.PacienteLista{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: 10px;
+}

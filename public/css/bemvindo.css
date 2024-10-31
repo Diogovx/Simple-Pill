@@ -1,0 +1,89 @@
+body {
+    border: none;
+    margin: 0;
+}
+
+/* BARRA E TEXTOS*/
+.caixaBranca {
+    height: 100px;
+    width: auto;
+    background: #ffffff;
+    margin-left: 80px;
+}
+
+img {
+    width: 95px;
+    height: 95px;
+    border-radius: 95px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #000;
+    font-family: Istok Web;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #000;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* PROPRIEDADES DE CADA BARRA DO USUÁRIO*/
+.caixaAzul {
+    background: #75ABC2;
+    min-height: 100vh;
+}
+
+.caixaVerde {
+    background: #468448;
+    min-height: 100vh;
+}
+
+.caixaAmarela {
+    background: #F1D262;
+    min-height: 100vh;
+}
+
+/* PROPRIEDADES DOS BOTÕES*/
+.botoes{
+    row-gap: 15px;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    padding: 100px;
+}
+
+.voltar{
+    color: #000;
+}
+
+button {
+    font-weight: bold;
+    height: 35px;
+    width: 230px;
+    font-family: Istok Web;
+    background-color: #ffffff;
+    border-radius: 28px;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+}

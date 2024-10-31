@@ -1,0 +1,178 @@
+body {
+    font-family: 'Istok Web', sans-serif;
+    border: none;
+    margin: 0;
+    margin-top: -2%;
+    display: flex;
+    flex-flow: column;
+    row-gap: 100px;
+}
+
+/*PROPRIEDADES DA BARRA DE CADA USUARIO*/
+.caixaVerde {
+    height: 144px;
+    background: #468448;
+    color: #FFF;
+    display: flex;
+    flex-flow: column;
+    column-gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.caixaAzul {
+    height: 144px;
+    background: #75ABC2;
+    color: #FFF;
+    display: flex;
+    flex-flow: column;
+    column-gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.caixaAmarela {
+    height: 144px;
+    background: #F1D262;
+    color: #FFF;
+    display: flex;
+    flex-flow: column;
+    column-gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+/* QUADROS*/
+.quadros {
+margin-top: -4%;
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+
+.quadro {
+    color: #676767;
+    font-family: Istok Web;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #E6E6E6;
+    width: 285px;
+    height: 130px;
+    margin: 1%;
+    }
+
+/* BOTOES DE VOLTAR E SALVAR*/
+.botoes
+{
+display: flex;
+flex-flow: row;
+align-items: center;
+column-gap: 80px;
+}
+
+.botoesPaciente {
+    width: fit-content;
+    height: 33px;
+    border-radius: 38px;
+    background:#75ABC2;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.botoesCuidador {
+    width: fit-content;
+    height: 33px;
+    border-radius: 38px;
+    background:#468448;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.botoesProfissional {
+    width: fit-content;
+    height: 33px;
+    border-radius: 38px;
+    background: #F1D262;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 6%;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* TEXTOS*/
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 3%;
+    font-family: Istok Web;
+}
+
+h2 {
+    color: #676767;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Istok Web;
+    margin-left: 5%;
+}
+
+h3 {
+    color: #000;
+    font-family: "Istok Web";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 5%;
+}
+
+/* IMAGEM E BOTAO DE ADD IMAGEM*/
+img {
+    width: 25%;
+    height: 50%;
+    display: flex;
+    margin-left: 65%;
+    margin-top: -20%;
+}
+
+.addImg {
+    width: 250px;
+    height: 33px;
+    border-radius: 38px;
+    background:#363636;
+    font-weight: 700;
+    color: #FFF;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: Istok Web;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 3%;
+}

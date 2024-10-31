@@ -1,0 +1,63 @@
+body {
+    font-family: 'Istok Web';
+    background-color: #fff8bd;
+    background-image: linear-gradient(180deg, #fff8bd 0%, #9adfc6 50%, #a4d9f2 100%);
+    margin: auto;
+    min-height: 100vh;
+}
+
+/* LOGO */
+.header img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+/* TEXTOS*/
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    font-family: 'Istok Web';
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 'Istok Web';
+    font-weight: 600;
+}
+
+/* BOTÕES*/
+.opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/* PROPRIEDADES DE CADA BOTÃO*/
+button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 2%;
+    border-radius: 28px;
+    font-family: 'Istok Web';
+    font-weight: 700;
+    width: 258px;
+    height: 49px;
+    align-items: center;
+    font-weight: 600;
+    border-color:#ffffff;
+    cursor: pointer;
+}
