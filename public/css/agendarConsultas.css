@@ -1,3 +1,5 @@
+@import 'main.css';
+
 body {
     font-family: 'Istok Web';
     border: none;
@@ -18,7 +20,7 @@ body {
 
 .caixaAzul {
     height: 144px;
-    background: #75ABC2;
+    background: var(--primary-color-patient);
     color: #FFF;
     display: flex;
     flex-flow: column;

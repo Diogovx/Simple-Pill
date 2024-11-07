@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --primary-color: #fff8bd;
+    --primary-gradient: linear-gradient(180deg, #fff8bd 0%, #9adfc6 50%, #a4d9f2 100%);
+    --patient-color: #75ABC2;
+    --caregiver-color: #468448;
+    --professional-color: #F1D262;
+    --white: #fff;
+    --secondary-white: #e9e9e9;
+    --black: #000;
+    --gray: #313131;
+    --border-radius-round: 2.8rem; 
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Istok Web', sans-serif;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+body, input, button, select{
+    font-size: 1.6rem;
+}
+
+
+@media(min-width: 1440px){
+    body{
+        font-size: 1.6rem;
+    }
+}
