@@ -11,10 +11,13 @@ Este projeto usa `Express` para servir páginas e `Nodemon` para monitorar o ser
 ```plaintext
 simplepill/
 ├── src/
-│   ├── index.js           # Script principal para carregar as páginas
+│   ├── routes/
+    |   ├── patient.js     # Script de rotas do paciente
 │   └── server.js          # Inicialização do servidor Express
 └── public/
     ├── index.html         # HTML principal
+    ├── js/
+    |   ├── index.js       # Script principal para carregar as páginas
     └── css/
         └── main.css       # CSS global
 ```
