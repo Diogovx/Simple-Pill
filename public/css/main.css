@@ -4,6 +4,7 @@
     --primary-gradient: linear-gradient(180deg, #fff8bd 0%, #9adfc6 50%, #a4d9f2 100%);
     --patient-color: #75ABC2;
     --caregiver-color: #468448;
+    --light-caregiver-color: #BDF3CF;
     --professional-color: #F1D262;
     --white: #fff;
     --secondary-white: #e9e9e9;
@@ -26,9 +27,116 @@ body, input, button, select{
     font-size: 1.6rem;
 }
 
+.professional {
+    background: var(--professional-color);
+}
+
+.pacient {
+    background: var(--patient-color);
+}
+.caregiver{
+    background: var(--caregiver-color);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    padding-top: 2rem;
+    color: var(--white);
+    flex-direction: column;
+    column-gap: 2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.main{
+    margin-top: 6rem;
+}
+
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
+
+}
+form .input-list{
+    width: 100%;
+    gap: 1rem;
+}
+
+select {
+    appearance: none;
+}
+
+label {
+    font-size: 2rem;
+    margin: 2%;
+}
+
+input, select{
+    padding: 1.0rem;
+    color: var(--gray);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: var(--border-radius-round);
+    background: #e9e9e9;
+    width: 100%;
+    border: none;
+}
+
+.buttons{
+    gap: 1rem;
+    width: 100%;
+}
+
+.buttons .save{
+    color: var(--white);
+}
+
+.buttons .save:hover{
+    background-color: var(--light-caregiver-color);
+    color: var(--black);
+}
+.buttons .back:hover{
+    text-decoration: underline;
+}
+
+.buttons .button{
+    width: 100%;
+    border: none;
+    border-radius: var(--border-radius-round);
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.back{
+    background-color: transparent;
+    text-decoration: none;
+}
+
 
 @media(min-width: 1440px){
     body{
         font-size: 1.6rem;
+    }
+    form{
+        max-width: 30%;
     }
 }

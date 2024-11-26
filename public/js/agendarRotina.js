@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(data.get("alongamento"));
         console.log(data.get("diaSemana"));
 
-        window.alert("Rotina realizada");
+        alert("Rotina realizada");
+        window.location.href= "bemvindoPaciente.html";
     });
 });
