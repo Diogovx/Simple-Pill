@@ -6,6 +6,7 @@
     --caregiver-color: #468448;
     --light-caregiver-color: #BDF3CF;
     --professional-color: #F1D262;
+    --light-professional-color: #FFF8BD;
     --white: #fff;
     --secondary-white: #e9e9e9;
     --black: #000;
@@ -54,19 +55,12 @@ body, input, button, select{
 .header {
     padding-top: 2rem;
     color: var(--white);
-    flex-direction: column;
-    column-gap: 2rem;
     align-items: center;
+    justify-content: space-evenly;
     text-align: center;
 }
 
-.main{
-    margin-top: 6rem;
-}
-
-
 form {
-    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,12 +103,18 @@ input, select{
     color: var(--white);
 }
 
-.buttons .save:hover{
+.buttons .back:hover{
+    text-decoration: underline;
+}
+
+.caregiver-button:hover{
     background-color: var(--light-caregiver-color);
     color: var(--black);
 }
-.buttons .back:hover{
-    text-decoration: underline;
+
+.professional-button:hover{
+    background-color: var(--light-professional-color);
+    color: var(--black);
 }
 
 .buttons .button{
@@ -136,7 +136,5 @@ input, select{
     body{
         font-size: 1.6rem;
     }
-    form{
-        max-width: 30%;
-    }
+
 }

@@ -1,24 +1,24 @@
 @import 'main.css';
+
 body {
     font-family: 'Istok Web';
 }
 
+.header{
+    padding-bottom: 3.5rem;
+}
+
+.professional-wavy-header {
+    background-image: url('Imagens/wavyFormPageHeaderProfessional.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* BARRA, IMAGEM */
 
-
-.caixaTopo {
-    /*height: 14rem;*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 4rem 0 4rem;
-    color: var(--white);
-}
-
-
-img {
-    translate: 0 4rem;
+.header img {
+    /*translate: 0 4rem;*/
     width: 9.5rem;
     height: 9.5rem;
     border-radius: 9.5rem;
@@ -39,71 +39,22 @@ h2 {
     font-weight: 400;
 }
 
-h4 {
+h3 {
     font-size: 2.4rem;
-}
-
-/* BOTÕES */
-
-.botao {
-    width: 7.6rem;
-    height: 3.3rem;
-    border-radius: var(--border-radius-round);
-    text-align: center;
-    color: var(--white);
-    text-decoration: none;
-    color: var(--white);
-    font-weight: 400;
-    border-style: none;
-
-}
-
-.voltar {
-    text-decoration: underline;
-    color: #000;
-    font-weight: 700;
-    text-align: center;
 }
 
 /* FORMULÁRIO E INPUTS */
 
-
-input {
-    color: var(--gray);
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 2.8rem;
-    background: var(--secondary-white);
-    width: 100%;
-    border: none;
-    box-sizing: border-box;
-    padding: 1rem;
-}
-
-.caixaBranca {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    text-align: center;
-    row-gap: 1.5rem;
-}
-
-/* LABEL */
-
-
-
-
-.botoes{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-@media(min-width: 1440px){
-    .buttons{
+@media(min-width: 1440px) {
+    .professional-wavy-header{
+        justify-content: center;
+        gap: 4rem ;
+        padding: 5rem 10rem;
+        background-image: url('Imagens/wavyFormPageHeaderProfessionalBigScreen.svg');
+        margin-bottom: 1rem;
+    }
+    
+    .buttons {
         flex-direction: row;
     }
 }

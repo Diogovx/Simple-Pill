@@ -22,7 +22,7 @@
     </header>
 
     <main class="flex flex-column flex-center main">
-        <h4>Consultas</h4>
+        <h3>Consultas</h3>
         <!-- FORMULÁRIO E INPUTS -->
         <form action="" method="post" id="forms">
             <div class="input-list flex flex-column">
@@ -31,7 +31,7 @@
                 <input type="number" name="corrida" placeholder="Duração da corrida" />
                 <input type="number" name="musculacao" placeholder="Duração da musculação" />
                 <input type="number" name="alongamento" placeholder="Duração do alongamento" />
-    
+
                 <!-- LABEL -->
                 <label for="diaSemana">Dia da semana:</label>
                 <select id="diaSemana" name="diaSemana">
@@ -46,8 +46,9 @@
 
             <!-- BOTÕES E IDS PARA DETALHAR MELHOR NO CSS -->
             <div class="buttons flex flex-column">
-                <button class="button save caregiver" type="button" id="salvar">Salvar</button>
-                <button href="pranchetaCuidador.html" class="button back">Voltar</button>
+                <button class="button save caregiver caregiver-button" type="button" id="salvar"
+                    aria-label="Salvar">Salvar</button>
+                <button class="button back" aria-label="Voltar">Voltar</button>
             </div>
         </form>
     </main>

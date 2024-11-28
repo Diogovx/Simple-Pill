@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(data.get("diaSemana"));
 
         alert("Rotina realizada");
-        window.location.href= "bemvindoPaciente.html";
+        window.location.href= "pranchetaCuidador.html";
     });
 });
