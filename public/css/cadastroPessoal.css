@@ -1,26 +1,24 @@
-body {
-    font-family: 'Istok Web';
-}
+@import 'main.css';
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-/* PROPRIEDADE DE CADA BARRA*/
-.caixaProfissional {
-    background-color: #F1D262;
-    width: 100%;
-    height: 150px;
-    padding: 2%;
-}
 
-.caixaPaciente {
-    background-color: #75ABC2;
-    width: 100%;
-    height: 150px;
-    padding: 2%;
+.patient-wavy-header {
+    background-image: url('Imagens/wavyFormPageHeaderPatient.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caregiver-wavy-header{
+    background-image: url('Imagens/wavyFormPageHeaderCaregiver.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.professional-wavy-header{
+    background-image: url('Imagens/wavyFormPageHeaderProfessional.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .caixaCuidador {
@@ -37,86 +35,31 @@ h1 {
     text-align: center;
 }
 
-img {
-    width: auto;
-    height: 50%;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}
-
-/* FORMULÁRIO E INPUTS */
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-    max-width: 400px;
-    margin: auto;
-    margin-top: 6%;
-}
-
-input {
-    color: #313131;
-    font-family: 'Istok Web';
-    font-size: 15px;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 28px;
-    background: #e9e9e9;
-    width: 90%;
-    height: 30px;
-    border: none;
-    box-sizing: border-box;
-    padding: 10px;
-}
-
-/* COMPORTAMENTO PADRÃO DOS BOTÕES */
-.botoes {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-/* PROPRIEDADE DE CADA BOTÃO */
-.profissional {
-    width: 90px;
-    height: 30px;
-    border-radius: 28px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    background-color: #F1D262;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-}
-
-.paciente {
-    width: 90px;
-    height: 30px;
-    border-radius: 28px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    background-color: #75ABC2;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
-}
-
-.cuidador {
-    width: 90px;
-    height: 30px;
-    border-radius: 28px;
-    font-size: 15px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    background-color: #468448;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
+@media(min-width: 1440px) {
+    .patient-wavy-header{
+        justify-content: center;
+        gap: 4rem ;
+        padding: 5rem 10rem;
+        background-image: url('Imagens/wavyFormPageHeaderPatientBigScreen.svg');
+        margin-bottom: 1rem;
+    }
+    
+    .caregiver-wavy-header{
+        justify-content: center;
+        gap: 4rem ;
+        padding: 5rem 10rem;
+        background-image: url('Imagens/wavyFormPageHeadercaregiverBigScreen.svg');
+        margin-bottom: 1rem;
+    }
+    .professional-wavy-header{
+        justify-content: center;
+        gap: 4rem ;
+        padding: 5rem 10rem;
+        background-image: url('Imagens/wavyFormPageHeaderprofessionalBigScreen.svg');
+        margin-bottom: 1rem;
+    }
+    
+    .buttons {
+        flex-direction: row;
+    }
 }

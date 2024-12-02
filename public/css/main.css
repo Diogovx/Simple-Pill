@@ -4,6 +4,7 @@
     --primary-gradient: linear-gradient(180deg, #fff8bd 0%, #9adfc6 50%, #a4d9f2 100%);
     --patient-color: #75ABC2;
     --caregiver-color: #468448;
+    --light-patient-color: #A4D9F2;
     --light-caregiver-color: #BDF3CF;
     --professional-color: #F1D262;
     --light-professional-color: #FFF8BD;
@@ -32,7 +33,7 @@ body, input, button, select{
     background: var(--professional-color);
 }
 
-.pacient {
+.patient {
     background: var(--patient-color);
 }
 .caregiver{
@@ -53,11 +54,19 @@ body, input, button, select{
 }
 
 .header {
-    padding-top: 2rem;
+    padding: 3rem;
     color: var(--white);
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+}
+.header img {
+    /*translate: 0 4rem;*/
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 9.5rem;
+    display: flex;
+    cursor: pointer;
 }
 
 form {
@@ -109,6 +118,10 @@ input, select{
 
 .caregiver-button:hover{
     background-color: var(--light-caregiver-color);
+    color: var(--black);
+}
+.patient-button:hover{
+    background-color: var(--light-patient-color);
     color: var(--black);
 }
 

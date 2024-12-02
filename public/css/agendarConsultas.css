@@ -6,44 +6,6 @@ body {
 }
 
 /* BOTOES */
-.botoes {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}
-
-.botoesPaciente {
-    width: 97px;
-    height: 33px;
-    border-radius: 38px;
-    background: var(--patient-color);
-    text-align: center;
-    font-size: 22px;
-    font-weight: 700;
-    color: #FFF;
-    margin-top: 6%;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-
-}
-.botoesCuidador {
-    width: 97px;
-    height: 33px;
-    border-radius: 38px;
-    background:#468448;
-    font-size: 22px;
-    font-weight: 700;
-    color: #FFF;
-    margin-top: 6%;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-}
 
 .botoesProfissional {
     width: 97px;
@@ -87,9 +49,8 @@ label {
 /* TEXTO */
 
 h1 {
-    color: #FFF;
-    text-align: center;
-    font-size: 28px;
+    font-size: 2.4rem;
     font-weight: 700;
-    padding: 1.5%;
+    margin-left: 0;
+    padding-top: 2%;
 }

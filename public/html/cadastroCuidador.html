@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,37 +13,32 @@
 
 <body>
 
-<!-- BARRA, TÍTULO E IMAGEM -->
-<div class="caixaCuidador">
-<h1>Cadastro do Cuidador</h1>
-<img src="Imagens/cuidador.png" alt="Icone Cuidador">
-</div>
+    <!-- BARRA, TÍTULO E IMAGEM -->
+    <header class="header caregiver-wavy-header flex flex-center">
+        <div class="title"><h1>Cadastro do Cuidador</h1></div>
+        <img src="Imagens/cuidador.png" alt="Icone Cuidador">
+    </header>
 
-<!-- FORMULÁRIO E INPUTS -->
-<div class="opcoes">
-    <form action="" method="post" id="forms">
-    <input type="text" name="nome" placeholder="Nome" />
-    <input type="text" name="tel" placeholder="Telefone" />
-    <input type="text" name="prof" placeholder="Profissão" />
-    <input type="date" name="dataNasc" placeholder="Data de nascimento" />
-    <input type="text" name="endereco" placeholder="Endereço" />
+    <!-- FORMULÁRIO E INPUTS -->
+    <main class="main flex flex-column flex-center">
+        <form action="" method="post" id="forms">
+            <div class="input-list flex flex-column ">
+                <input type="text" name="nome" placeholder="Nome" />
+                <input type="text" name="tel" placeholder="Telefone" />
+                <input type="text" name="prof" placeholder="Profissão" />
+                <input type="date" name="dataNasc" placeholder="Data de nascimento" />
+                <input type="text" name="endereco" placeholder="Endereço" />
+            </div>
 
-<!-- BOTÕES E IDS PARA DETALHAR MELHOR NO CSS -->
-    <div class="botoes">
-        <button class="cuidador" type="button" id="voltar">Voltar</button>
-        <button class="cuidador" type="submit" id="salvar">Salvar</button>
-    </div>
+            <!-- BOTÕES E IDS PARA DETALHAR MELHOR NO CSS -->
+            <div class="buttons">
+                <button class="button caregiver caregiver-button save" type="submit" id="salvar">Salvar</button>
+                <button class="button back" type="button" id="voltar">Voltar</button>
+            </div>
 
-</form>
-<script src="cadastroCuidador.js" type="text/javascript"></script>
+        </form>
+        <script src="cadastroCuidador.js" type="text/javascript"></script>
 
-</div>
+    </main>
 
 </body>
-
-
-
-
-
-
-

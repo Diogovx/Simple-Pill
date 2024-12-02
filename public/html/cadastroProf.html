@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,33 +13,34 @@
 
 <body>
 
-<!-- BARRA, TÍTULO E IMAGEM -->
-<div class="caixaProfissional">
-<h1>Cadastro do Profissional de Saúde</h1>
-<img src="Imagens/medico.png" alt="Icone Medico">
-</div>
+    <!-- BARRA, TÍTULO E IMAGEM -->
+    <header class="header professional-wavy-header flex flex-center">
+        <h1>Cadastro do Profissional de Saúde</h1>
+        <img src="Imagens/medico.png" alt="Icone Medico">
+    </header>
 
-<!-- FORMULÁRIO E INPUTS -->
-<div class="opcoes">
-    <form action="" method="post" id="forms">
-    <input type="text" name="nome" placeholder="Nome" />
-    <input type="text" name="tel" placeholder="Telefone" />
-    <input type="text" name="prof" placeholder="Profissão" />
-    <input type="text" name="registroProf" placeholder="Registro do Profissional" />
-    <input type="date" name="dataNasc" placeholder="Data de nascimento" />
-    <input type="text" name="uni" placeholder="Unidade que trabalha(SUS e privadas)" />
-    <input type="number" name="idPaciente" placeholder="ID do Paciente" />
-<!-- BOTÕES E IDS PARA DETALHAR MELHOR NO CSS -->
-    <div class="botoes">
-        <button class="profissional" type="button" id="voltar">Voltar</button>
-        <button class="profissional" type="submit" id="salvar">Salvar</button>
-    </div>
+    <!-- FORMULÁRIO E INPUTS -->
+    <main class="main flex flex-column flex-center">
+        <form action="" method="post" id="forms">
+            <div class="input-list flex flex-column">
+                <input type="text" name="nome" placeholder="Nome" />
+                <input type="text" name="tel" placeholder="Telefone" />
+                <input type="text" name="prof" placeholder="Profissão" />
+                <input type="text" name="registroProf" placeholder="Registro do Profissional" />
+                <input type="date" name="dataNasc" placeholder="Data de nascimento" />
+                <input type="text" name="uni" placeholder="Unidade que trabalha(SUS e privadas)" />
+                <input type="number" name="idPaciente" placeholder="ID do Paciente" />
+            </div>
+            <!-- BOTÕES E IDS PARA DETALHAR MELHOR NO CSS -->
+            <div class="buttons">
+                <button class="button professional professional-button save" type="submit" id="salvar">Salvar</button>
+                <button class="button back" type="button" id="voltar">Voltar</button>
+            </div>
 
-</form>
+        </form>
 
-<script src="cadastroProf.js" type="text/javascript"></script>
-
-</div>
-
+        
+    </main>
+    
+    <script src="cadastroProf.js" type="text/javascript"></script>
 </body>
-
